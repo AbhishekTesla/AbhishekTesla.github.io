@@ -21,7 +21,7 @@
       display: flex;
       flex-direction: column;
       
-     
+  
       align-items: center;
       
      margin-top: 200px;
@@ -55,8 +55,10 @@
       box-shadow: 4px 2px 4px black;
       border-radius: 6px;
   } .box-4{
+     
+
       border: 2px solid black;
-      min-width: 700px;
+      width: 700px;
       margin: 10px 10px;
       text-align: center;
       padding: 10px 10px;
@@ -123,8 +125,18 @@
       color: white;
   }
 
+  @media screen and (max-width: 800px) {
+  .box-1 {
+    width: 370px;
+  } .box-2 {
+    width: 370px;
+  } .box-3 {
+    width: 370px;
+  } .box-4 {
+    width: 370px;
+  }
+}
  
-
  
  
 </style>
@@ -153,7 +165,8 @@
            
           
             <a href="javascript:void(0)" onclick="location.href='https://twitter.com/abhishektesla'" target="blank">
-                <p>Twitter</p></a>
+                <p>
+                    Twitter</p></a>
             
         </div>
 
