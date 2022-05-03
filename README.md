@@ -2,4 +2,4 @@
 
 This is my linktree website 
 
-You can visit the website using link => https://abhishektesla.github.io/linktree.html
+You can visit my linktree website using link => https://abhishektesla.github.io/linktree.html
